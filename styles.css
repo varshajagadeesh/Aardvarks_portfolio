@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+    background-color: #f8fafc;
+}
+
+header {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-top: 50px;
+}
+
+.project-card {
+    background: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 16px;
+
+    box-shadow:
+        0 4px 12px rgba(0,0,0,.08);
+}
+
+.project-card h3 {
+    margin-top: 0;
+}
+
+.project-card a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-card a:hover {
+    text-decoration: underline;
+}
+
+.team-member {
+    background: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 16px;
+
+    box-shadow:
+        0 4px 12px rgba(0,0,0,.08);
+}
